@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
     
     if (response.statusCode == 200) {
       final body = response.body;
-      final List<dynamic> json = jsonDecode(body); // response is a list of missions
+      final List<dynamic> json = jsonDecode(body); //stored in a list because response is a list of missions
     
       final transformed = json.map((e) => Launch.fromJson(e)).toList();
       

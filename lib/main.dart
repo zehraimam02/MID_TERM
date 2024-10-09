@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mid_zehraimam_26946/screen/home.dart';
 
 
-void main(){//main function in adding_model
+void main(){
   runApp(const MyApp());
 }
 
