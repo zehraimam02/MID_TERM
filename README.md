@@ -1,6 +1,6 @@
 # mid_zehraimam_26946
 DEMO_SS is attached
-A new Flutter project.
+
 
 ## Getting Started
 
